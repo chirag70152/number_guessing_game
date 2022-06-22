@@ -45,11 +45,13 @@ if guess3 == num:
     sys.exit()
 elif guess3 > num:
     print("Sorry this number is greater than the answer.")
+    print("The correct answer was", num)
     print("Better luck next time.")
     print()
     print("Thanks for playing")
 else:
     print("Sorry this number is shorter than the answer.")
+    print("The correct answer was", num)
     print("better luck next time.")
     print()
     print("Thanks for playing")
